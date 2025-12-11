@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour, IInteraction
 {
     [SerializeField]
     private Slider enemyHealthbar;
+    
 
     private const int maxHealth = 100;
     private int currentHealth = 0;
